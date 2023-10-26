@@ -57,4 +57,5 @@ class CompanyController extends Controller
         $company->delete();
         return redirect()->route('companies.index')->with('success', 'Company Deleted Successfuly');
     }
+    // worapong test
 }
